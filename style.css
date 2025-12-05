@@ -1,0 +1,63 @@
+body, div, form, input, label, button{
+    display: flex;
+
+}
+
+body{
+    margin: 0px;
+}
+
+div.container1{
+    height: 100vh;
+    width: 500px;
+    background-image: url("/images/halie-west-25xggax4bSA-unsplash.jpg");
+    background-size: cover;
+}
+
+div.logo-container{
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+div.logo-container h1, img{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    text-align: center;
+}
+
+.logo{
+    height: 100px;
+    width: auto;
+}
+
+div.container2{
+    display: flex;
+    flex-direction: column;
+}
+
+div.logo-container{
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+
+form{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+form > div{
+    flex-direction: column;
+    margin: 10px;
+}

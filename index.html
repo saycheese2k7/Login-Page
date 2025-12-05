@@ -1,11 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
 </head>
+
 <body>
-    
+    <div class="container1">
+        <div class="logo-container">
+            <img src="images/odin-lined.png" class="logo">
+            <h1>Odin</h1>
+        </div>
+    </div>
+    <div class="container2">
+        <div>
+            <p>Lorem ipsum dolor sit amet...</p>
+        </div>
+
+        <div>
+            <form action="/submit" method="post">
+                <div>
+                <label for="fname">First Name</label>
+                <input type="text" id="name" name="name" required>
+                </div>
+
+                <div>
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lname">
+                </div>
+
+                <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                </div>
+
+                <div>  
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required>
+                </div>
+                
+                <div>
+                <label for="pword">Password</label>
+                <input type="password" id="pword" name="pword" required>
+                </div>
+
+                <div>
+                <label for="cpword">Confirm Password</label>
+                <input type="password" id="cpword" name="cpword" required>
+                </div>
+
+                <div>
+                <label for="terms">I agree to the terms and conditions</label>
+                <input type="checkbox" id="terms" name="terms" required>
+                </div>
+
+                <div>
+                <button type="submit">Create Account</button>
+                </div>
+
+            </form>
+        </div>
+
+        <div>
+            <p>Already have an account? <a href="/login">Login</a></p> 
+        </div>
+    </div>
 </body>
 </html>
