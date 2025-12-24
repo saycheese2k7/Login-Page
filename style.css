@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bartle&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 body, div, form, input, label, button{
     display: flex;
 
@@ -5,11 +6,13 @@ body, div, form, input, label, button{
 
 body{
     margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
 div.container1{
     height: 100vh;
-    width: 500px;
+    width: 50%;
     background-image: url("/images/halie-west-25xggax4bSA-unsplash.jpg");
     background-size: cover;
 }
@@ -18,10 +21,11 @@ div.logo-container{
     background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     flex-direction: row;
-    height: 300px;
+    height: 30vh ;
+    margin-top: 20vh;
     width: 100%;
-    align-items: center;
-    justify-content: center;
+    /*align-items: center;
+    justify-content: center;*/
 }
 
 
@@ -43,6 +47,14 @@ div.container2{
     flex-direction: column;
 }
 
+div.container2 > div{
+    padding: 20px;
+}
+
+div.container2 > div.signup-form{
+    padding: 0px;
+}
+
 div.logo-container{
     color: white;
     flex-direction: column;
@@ -55,9 +67,22 @@ form{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    box-shadow: 5px 0px 15px grey;
+    padding: 20px;
+    width: 100%;
 }
 
 form > div{
     flex-direction: column;
     margin: 10px;
+}
+
+button{
+    background-color: #308c33;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Ubuntu', 'BBH Bartle', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
