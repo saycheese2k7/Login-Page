@@ -12,16 +12,17 @@
     <div class="container1">
         <div class="logo-container">
             <img src="images/odin-lined.png" class="logo">
-            <h1>Odin</h1>
+            <h1>ODIN</h1>
         </div>
     </div>
     <div class="container2">
         <div>
-            <p>Lorem ipsum dolor sit amet...</p>
+            <h2>Create an Account</h2>
+            <p>To get the most out of Odin, create an account. It's free and easy.</p>
         </div>
 
         <div class="signup-form">
-            <form action="submit" method="post">
+            <form action="submit" method="post" id="createaccform">
                 <div>
                 <label for="fname">First Name</label>
                 <input type="text" id="name" name="name" required>
@@ -52,11 +53,11 @@
                 <input type="password" id="cpword" name="cpword" required>
                 </div>
 
-                <div>
-                <button type="submit">Create Account</button>
-                </div>
-
             </form>
+        </div>
+
+        <div>
+            <input class="btn" type="submit" value="Create Account" form="createaccform">
         </div>
 
         <div>

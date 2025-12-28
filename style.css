@@ -49,6 +49,8 @@ div.container2{
 
 div.container2 > div{
     padding: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 div.container2 > div.signup-form{
@@ -77,7 +79,7 @@ form > div{
     margin: 10px;
 }
 
-button{
+.btn{
     background-color: #308c33;
     color: white;
     padding: 10px 20px;
